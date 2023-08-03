@@ -1,0 +1,67 @@
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Red Rose", cursive;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./Images/Background.png) ;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 10px;
+}
+.logo img{
+    height: 30px;
+    width: 100px;
+}
+ul{
+    display: flex;
+    gap: 60px;
+}
+ul a{
+    color: #f6ae07;
+}
+section{
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+   
+}
+section h1{
+    color: #ffc233;
+    font-family: "Dela Gothic One", cursive;
+    line-height: 90px;
+    font-weight: 400;
+    font-size: 90px;
+}
+footer{
+    position: absolute ;
+    bottom: 10px;
+    right: 10px;
+}
+footer img{
+    height: 90pt;
+}
+button{
+    background-color: #ff505f;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    font-family: "Red Rose";
+    border-radius: 5px;
+    margin-top: 10px;
+}
+section button a{
+    color: aliceblue;
+}
